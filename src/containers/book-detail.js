@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-export default class BookDetail extends Component {
+class BookDetail extends Component {
 
     render(){
         return (
@@ -8,3 +9,12 @@ export default class BookDetail extends Component {
         );
     }
 }
+
+function mapStateToProps(state){
+    // Return an object that will show up as props inside of BookDetail
+    return {
+        book: state.activeBook
+    };
+}
+
+export default connect(mapStateToProps)(BookDetail);

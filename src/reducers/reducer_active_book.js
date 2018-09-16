@@ -1,3 +1,4 @@
+// Produces new piece of application state whenever a book is selected
 // All reducers get two arguments; hte current state and action
 // Reducers are only called when an action occurs
 // State argument is not application state, on the state this reducer
