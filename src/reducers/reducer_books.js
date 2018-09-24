@@ -1,8 +1,8 @@
 export default function(){
     return [
-        { title: 'Learn Javascript' },
-        { title: 'Harry Potter' },
-        { title: 'The Dark Tower' },
-        { title: 'Eloquent Ruby' }
+        { title: 'Learn Javascript', pages: 101 },
+        { title: 'Harry Potter', pages: 34 },
+        { title: 'The Dark Tower', pages: 576 },
+        { title: 'Eloquent Ruby', pages: 687 }
     ]
 }
